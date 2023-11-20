@@ -1,0 +1,96 @@
+body{
+    background-color: lightblue;
+    font-family: Verdana;
+}
+.container{
+    background-color: #e9e7ea;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0px 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 30px;
+
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar{
+    display: flex;
+    justify-content: end;
+}
+.name{
+    padding-left: 300;
+    border-left: 1px solid #000;
+
+
+}
+.name h1{
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+.name.contact span{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: center;
+    text-align: center;
+    font-size: small;
+    margin-right: 20px;
+
+
+
+}
+.name .contact li{
+    padding: 5 px 0;
+    transform: translate(-40px);
+    background-color: #e9e7ea;
+
+}
+.SƠ LƯỢC VỀ BẢN THÂN  ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+    line-height: 30px;
+}
+.SƠ LƯỢC VỀ BẢN THÂN{
+    padding-left: 30px ;
+    border-left: 1px sold #000;
+    text-align: justify;
+
+}
+h2{
+    padding: 0;
+    margin: 0 0 20px;
+
+}
+.HỌC VẤN{
+    text-align: right;
+
+}
+.HỌC VẤN h4{
+    margin-top: 20px 0 10px;
+
+}
+.THÀNH TÍCH{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+
+
+}
+.TÀNH TÍCH .item{
+    position: relative;
+
+}
